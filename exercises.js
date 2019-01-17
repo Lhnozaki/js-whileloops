@@ -103,6 +103,20 @@ devleague homie!
 ...
 ...*/
 
+var i = 0;
+
+while (i <= 100){
+	i++;
+	if (i%3 === 0 && i%5 === 0){
+	console.log("devleague homie!");
+	}else if(i%5 === 0){
+	console.log("league");
+	}else if(i%3 === 0){
+	console.log("dev");
+	}else{
+	console.log(i);
+	}
+}
 
 /*
  * #6
@@ -115,6 +129,12 @@ devleague homie!
  *Pass in a number value to invoke your function. Console.log donutBought.
 */ 
 
+var donutPrice = 5;
+var donutBought = 0;
 
+function buyDonut(budget){
+	
+
+}
 
 
