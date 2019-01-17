@@ -133,8 +133,11 @@ var donutPrice = 5;
 var donutBought = 0;
 
 function buyDonut(budget){
-	
-
+	while (budget >= donutPrice){
+		budget -= donutPrice;
+		donutBought++;
+	}
 }
-
+buyDonut(20);
+console.log('Amount of donuts bought', donutBought);
 
